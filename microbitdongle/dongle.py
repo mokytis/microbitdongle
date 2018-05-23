@@ -46,7 +46,8 @@ class Dongle:
         self.log("Connected to microbit successfully")
 
     def recv(self):
-        self.s.readline().decode("UTF-8").rstrip()
+        data = self.s.readline().decode("UTF-8").rstrip()
+        return data
 
     def send(self, data):
         self.s.write(data.encode())
