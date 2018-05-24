@@ -1,0 +1,15 @@
+License File part 1
+===================
+part 1 content
+
+Sub1
+----
+Sub content
+
+Sub2
+----
+More sub content
+
+LFp2
+====
+part 2 content
