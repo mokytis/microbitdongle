@@ -5,7 +5,7 @@ long_description = open('README.rst').read()
 setup(
     name='microbitdongle',
     decription='allows you to be able to communicate with a microbit over serial',
-    version='0.3.10',
+    version='0.3.11',
     author='Luke Spademan',
     author_email='info@lukespademan.com',
     packages=['microbitdongle'],
